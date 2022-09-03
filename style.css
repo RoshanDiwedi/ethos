@@ -81,12 +81,12 @@ section {
 
 /* main header */
 .main-header .logo img {
-  max-width: 280px;
+  max-width: 180px;
   width: 100%;
 }
 
 .main-header img.nav-img {
-  max-width: 25px;
+  max-width: 10px;
   width: 100%;
   margin-right: 9px;
 }
@@ -948,9 +948,10 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  #search {
+  #search,.nav-img {
     display: none;
   }
+ 
   #main-nav {
     flex-direction: row-reverse;
   }
@@ -968,8 +969,5 @@ footer {
   }
   .header .navbar-wrapper ul {
     flex-direction: column !important;
-  }
-  section.text-area {
-    padding: 40px 15px !important;
   }
 }
