@@ -970,4 +970,7 @@ footer {
   .header .navbar-wrapper ul {
     flex-direction: column !important;
   }
+  .main-header .container{
+    border: none;
+  }
 }
