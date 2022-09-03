@@ -127,7 +127,7 @@ section {
   gap: 55px;
 }
 
-.header .navbar-active{
+.header .navbar-active {
   display: block;
 }
 
@@ -162,7 +162,7 @@ section.banner::after {
 }
 
 /*--------------------------------------------------------------
-# Banner section
+# Text area section
 --------------------------------------------------------------*/
 section.text-area {
   padding: 80px 0 40px;
@@ -247,9 +247,8 @@ section.about .container {
   left: 100px;
 }
 
-.header .navbar-active{
-  display: 
-  block;
+.header .navbar-active {
+  display: block;
 }
 
 @media screen and (max-width: 768px) {
@@ -272,7 +271,7 @@ section.about .container {
 
   .navbar-wrapper {
     display: none;
-  
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 990px) {
@@ -967,7 +966,10 @@ footer {
   .main-header {
     padding: 0 10px;
   }
-  .header .navbar-wrapper ul{
+  .header .navbar-wrapper ul {
     flex-direction: column !important;
+  }
+  section.text-area {
+    padding: 40px 15px !important;
   }
 }
