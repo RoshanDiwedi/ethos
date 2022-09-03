@@ -127,6 +127,10 @@ section {
   gap: 55px;
 }
 
+.header .navbar-active{
+  display: block;
+}
+
 /*--------------------------------------------------------------
 # Banner section
 --------------------------------------------------------------*/
@@ -243,14 +247,32 @@ section.about .container {
   left: 100px;
 }
 
+.header .navbar-active{
+  display: 
+  block;
+}
+
 @media screen and (max-width: 768px) {
-  .about .about-bg-1 {
+  .about .about-bg-1,
+  .about .about-bg-2,
+  .about .about-bg-3,
+  .about .about-bg-4 {
     height: 450px;
   }
 
   .about .about-col:nth-child(1) {
     padding: 35px;
   }
+
+  .active {
+    right: 0;
+    z-index: 999;
+    transition: 0.2s ease;
+  }
+
+  .navbar-wrapper {
+    display: none;
+  
 }
 
 @media screen and (min-width: 768px) and (max-width: 990px) {
@@ -944,5 +966,8 @@ footer {
   }
   .main-header {
     padding: 0 10px;
+  }
+  .header .navbar-wrapper ul{
+    flex-direction: column !important;
   }
 }

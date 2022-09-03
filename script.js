@@ -27,12 +27,13 @@ $(document).ready( function () {
        }
    });
 
-   const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
+   const hamburger = document.querySelector(".hambarger");
+const navMenu = document.querySelector(".navbar-wrapper");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
+  navMenu.classList.toggle("navbar-active");
 });
 
 document.querySelectorAll(".nav-link").forEach((link) =>
