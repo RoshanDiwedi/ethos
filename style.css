@@ -62,12 +62,17 @@ section {
   padding: 40px 0;
 }
 
+@media screen and (max-width: 767px) {
+  section {
+    padding: 0 0;
+  }
+}
+
 /*--------------------------------------------------------------
 # Top Bar
 --------------------------------------------------------------*/
 .header .top-nav {
   background-color: #f4f4f4;
-  height: 60px;
   padding: 17px 0;
 }
 
@@ -170,6 +175,12 @@ section.banner::after {
   z-index: 5;
 }
 
+@media screen and (max: 767px) {
+  section.banner {
+    padding: 70px 0 !important;
+  }
+}
+
 /*--------------------------------------------------------------
 # Text area section
 --------------------------------------------------------------*/
@@ -180,6 +191,12 @@ section.text-area {
 .text-area .text-area-wrapper {
   width: 100%;
   font-size: 18px;
+}
+
+@media screen and (max: 767px) {
+  section.text-area {
+    padding: 40px 0;
+  }
 }
 
 /*--------------------------------------------------------------
