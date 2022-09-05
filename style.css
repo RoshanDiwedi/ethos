@@ -103,6 +103,11 @@ section {
   width: 100%;
 }
 
+.main-header img.infomation-img {
+  max-width: 22px;
+  width: 100%;
+}
+
 .main-header img.nav-img {
   max-width: 22px;
   width: 100%;
