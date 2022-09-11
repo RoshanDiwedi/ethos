@@ -45,11 +45,11 @@ $(document).ready( function () {
 
 
   // footer ul hover effect
-  $(".footer .top-footer ul li").on("mouseover", function(){
+  $(".footer .top-footer li span").on("mouseover", function(){
     $(this).addClass("active");
   });
 
-  $(".footer .top-footer ul li").on("mouseout", function(){
+  $(".footer .top-footer li span").on("mouseout", function(){
     $(this).removeClass("active");
   });
 
