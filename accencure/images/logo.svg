@@ -1,0 +1,16 @@
+<svg viewBox="0 0 1920 1080" style="width: 60%;">
+			<defs>
+				<clipPath clipPathUnits="userSpaceOnUse" id="cp2">
+					<path d="M0 0L1920 0L1920 1080L0 1080L0 0Z"></path>
+				</clipPath>
+			</defs>
+			<style>
+				tspan { white-space:pre }
+				.shp0 { fill: #ffffff } 
+			</style>
+			<g id="Clip-Path2" clip-path="url(#cp2)">
+				<g>
+					<path fill-rule="evenodd" class="shp0" d="M0 0L1920 0L1920 1080L0 1080L0 0ZM758 287L758 413.23L1023.45 520.13L758 627.03L758 753.26L1163 588.36L1163 451.91L758 287Z"></path>
+				</g>
+			</g>
+</svg>

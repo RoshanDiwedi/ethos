@@ -98,10 +98,16 @@
 
             <!-- column -->
             <div
-              class="col-lg-8 d-flex align-items-center justify-content-end gap-5"
+              class="mobile-nav col-lg-8 d-flex align-items-center justify-content-end gap-5"
             >
+              <!-- mobile navigation -->
+              <div class="mobile-bar">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark"></i>
+              </div>
+              <!-- navigation -->
               <ul
-                class="navbar-top d-flex align-items-center justify-content-end gap-4"
+                class="navbar-top d-lg-flex align-items-center justify-content-end gap-4"
               >
                 <li><a href="#">Home</a></li>
                 <li><a href="#">What We Do</a></li>
@@ -124,7 +130,9 @@
 
       <section class="banner d-flex align-items-center pt-lg-5">
         <div class="container">
-          <div class="row d-flex align-items-center justify-content-between">
+          <div
+            class="row d-flex align-items-center justify-content-between mt-5"
+          >
             <!-- column -->
             <div class="col-lg-6 col-md-6 col-sm-12">
               <a href="#" class="btn-small">SEO Ready</a>
@@ -173,8 +181,8 @@
       <section class="info">
         <div class="container">
           <div class="row text-center mx-auto my-0" style="max-width: 550px">
-            <a href="#" class="btn-small">SEO Ready</a>
-            <h2>What We Do</h2>
+            <a href="#" class="btn-small">Services</a>
+            <h2 class="mb-4">What We Do</h2>
             <p>
               Dynamically provide access to resource-leveling mindshare
               vis-a-vis bricks-and-clicks ideas authoritatively
@@ -292,9 +300,9 @@
         <div class="container">
           <div class="row">
             <!-- column -->
-            <div class="col-lg-4 col-md-4 col-sm-12">
-              <a href="#" class="btn-small">SEO Ready</a>
-              <h2 class="mb-4">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+              <a href="#" class="btn-small">Pricing Table </a>
+              <h2 class="mb-5">
                 No Hidden Charges. <br />
                 Choose Your Best Plan.
               </h2>
@@ -303,13 +311,175 @@
                 Deserunt dolore voluptatem assumenda quae possimus sunt
                 dignissimos tempora officia.
               </p>
+
+              <div class="mon-yr">
+                <span>Monthly</span>
+                <span>
+                  <label for="check">
+                    <input type="checkbox" name="check" id="check" />
+                  </label>
+                </span>
+                <span>Yearly</span>
+              </div>
             </div>
 
             <!-- column -->
-            <div class="col-lg-4 col-md-4 col-sm-12"></div>
+            <div class="fee-col col-lg-4 col-md-6 px-4 py-4 col-sm-12">
+              <div class="fee-title">
+                <img src="./images/man.svg" alt="" />
+                <h3>Single User Plan</h3>
+                <p>Most Popular</p>
+              </div>
+
+              <div class="fee-price">
+                <span>$</span><span class="price">5</span>
+                <p>per month</p>
+              </div>
+
+              <div class="list mt-4">
+                <ul>
+                  <li>
+                    <span><i class="fa-solid fa-circle-check"></i></span>
+                    <span><strong>Limited </strong> Support</span>
+                  </li>
+                  <li>
+                    <span><i class="fa-solid fa-circle-check"></i></span>
+                    <span><strong>1 </strong> Free Optimization</span>
+                  </li>
+                  <li>
+                    <span><i class="fa-solid fa-circle-check"></i></span>
+                    <span><strong>100+ </strong> Pages</span>
+                  </li>
+                  <li>
+                    <span><i class="fa-solid fa-circle-check"></i></span>
+                    <span><strong>Single </strong> User License</span>
+                  </li>
+                  <li>
+                    <span><i class="fa-solid fa-circle-check"></i></span>
+                    <span>Phone & Email Support</span>
+                  </li>
+                </ul>
+
+                <a href="#" class="fee-btn">Get Started</a>
+              </div>
+            </div>
 
             <!-- column -->
-            <div class="col-lg-4 col-md-4 col-sm-12"></div>
+            <div class="fee-col col-lg-4 col-md-6 px-4 py-4 col-sm-12">
+              <div class="fee-title mt-4">
+                <img src="./images/group.svg" alt="" />
+                <h3>Multiple User Plan</h3>
+              </div>
+
+              <div class="fee-price">
+                <span>$</span><span class="price">12</span>
+                <p>per month</p>
+              </div>
+
+              <div class="list mt-4">
+                <ul>
+                  <li>
+                    <span><i class="fa-solid fa-circle-check"></i></span>
+                    <span><strong>24*7 </strong> Support</span>
+                  </li>
+                  <li>
+                    <span><i class="fa-solid fa-circle-check"></i></span>
+                    <span><strong>10 </strong> Free Optimization</span>
+                  </li>
+                  <li>
+                    <span><i class="fa-solid fa-circle-check"></i></span>
+                    <span><strong>1000+ </strong> Pages</span>
+                  </li>
+                  <li>
+                    <span><i class="fa-solid fa-circle-check"></i></span>
+                    <span><strong>Unlimited </strong> User License</span>
+                  </li>
+                  <li>
+                    <span><i class="fa-solid fa-circle-check"></i></span>
+                    <span>Phone & Email Support</span>
+                  </li>
+                </ul>
+
+                <a href="#" class="fee-btn-outline">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--================= Contact form Section ============== -->
+      <section class="contact">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <!-- column -->
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <a href="#" class="btn-small">Careers </a>
+              <h2 class="mb-5">Get your free Quote today</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Deserunt dolore voluptatem assumenda quae possimus sunt
+                dignissimos tempora officia.
+              </p>
+            </div>
+
+            <!-- column -->
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div class="form-container card px-4 py-4">
+                <h4 class="mb-3">Apply Now</h4>
+                <div class="col-12 mb-3">
+                  <label for="name">NAME:*</label>
+                  <input type="text" class="" name="" id="name" required />
+                </div>
+
+                <div class="col-12 mb-3">
+                  <label for="email">EMAIL ADDRESS:*</label>
+                  <input type="text" class="" name="" id="email" required />
+                </div>
+
+                <div class="col-12 mb-3">
+                  <label for="website">WEBSITE:*</label>
+                  <input type="text" class="" name="" id="website" required />
+                </div>
+                <a href="#" class="fee-btn">Get Started</a>
+              </div>
+            </div>
+
+            <!-- column -->
+            <div class="col-lg-4 col-md-4 col-sm-6">
+              <div
+                class="video-icon d-flex align-items-center justify-content-center"
+              >
+                <span>
+                  <i class="fa-solid fa-play"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- video container -->
+          <div class="video">
+            <i class="fa-solid fa-xmark"></i>
+            <iframe
+              width="900"
+              height="500"
+              src="https://www.youtube.com/embed/P3Huse9K6Xs"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section class="five">
+        <div class="container">
+          <div class="row d-flex">
+            <div class="col-lg-2 five-box">hello</div>
+            <div class="col-lg-2 col-half-offset five-box">hello</div>
+            <div class="col-lg-2 col-half-offset five-box">hello</div>
+            <div class="col-lg-2 col-half-offset five-box">hello</div>
+            <div class="col-lg-2 col-half-offset five-box">hello</div>
           </div>
         </div>
       </section>
