@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This website is about jquery mobile" />
+    <meta name=" keywords" content="jQuery, html, Css, jQuery Mobile" />
+    <!-- jquery Mobile -->
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"
+    />
+    <!-- Css Style sheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Setup JQuery Mobile</title>
+  </head>
+  <body>
+    <div data-role="page" id="home-page">
+      <!--========= header ===========-->
+      <div data-role="header" data-theme="b" class="header">
+        <h1>Header</h1>
+      </div>
+
+      <!--========== Content ==========-->
+      <div data-role="main" class="ui-content">
+        <h4>HomePage</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quo
+          impedit voluptatem inventore, quos mollitia et, nemo quod facilis
+          voluptatum iusto obcaecati distinctio quasi dicta incidunt sed nam
+          quam accusamus odit itaque. Nobis, nulla reiciendis?
+        </p>
+
+        <a href="#about-page">About us</a> <br />
+        <a href="#about-page" class="ui-btn ui-btn-inline ui-corner-all"
+          >Button</a
+        >
+        <a href="#about-page" class="ui-btn ui-btn-inline">Button</a>
+      </div>
+
+      <!--=========== Footer ==========-->
+      <div
+        data-role="footer"
+        data-theme="b"
+        data-position="fixed"
+        class="footer"
+      >
+        <h4>&copy; roshan 2022</h4>
+      </div>
+    </div>
+
+    <!--====================================
+                     About Page 
+    ======================================-->
+    <div data-role="about" id="about-page">
+      <!--========= header ===========-->
+      <div data-role="header" class="header">
+        <h1>Header</h1>
+      </div>
+
+      <!--========== Content ==========-->
+      <div data-role="main" class="ui-content">
+        <h4>About Page</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quo
+          impedit voluptatem inventore, quos mollitia et, nemo quod facilis
+          voluptatum iusto obcaecati distinctio quasi dicta incidunt sed nam
+          quam accusamus odit itaque. Nobis, nulla reiciendis?
+        </p>
+        <a href="#home-page">Home Page</a>
+      </div>
+
+      <!--=========== Footer ==========-->
+      <div data-role="footer" data-position="fixed" class="footer">
+        <h4>&copy; roshan 2022</h4>
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <!-- JQuery Mobile -->
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <!-- Script Js -->
+    <script src="script.js"></script>
+  </body>
+</html>
